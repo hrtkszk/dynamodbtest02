@@ -13,7 +13,7 @@ function App() {
 
     var docClient = new AWS.DynamoDB.DocumentClient();
     var params = {
-        TableName: tablename,
+        TableName: Dynamodbtest01,
         Item:{
           "timestamp": 1023123,
           "datetime": "1970-01-01T12:30:23.999Z"
